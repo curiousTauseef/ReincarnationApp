@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC"-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head profile="http://www.w3.org/2005/10/profile">
+	<link rel="icon" 
+	type="image/png" 
+	href="../images/favicon.ico">
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="../src/app.js"></script>
+                <link rel="stylesheet" type="text/css" href="../css/styling.css">
+
+                <title>Reincarnation App</title>
+       	</head>
+	<body>
+
+<div id="fb-root"></div>
+		<div id="content">
+			<img border="0" src="../images/logo.png" alt="Application logo here" width="150" height="150"><br/>
+		<div class="fb-login-button" data-max-rows="1" data-size="xlarge" data-show-faces="true" onlogin="getUserData();" data-scope="user_birthday" data-auto-logout-link="true"></div>
+		<br/>
+		<button id="visual" style="visibility:hidden">Show vizualizations</button>
+		<button id="maplink" style="visibility:hidden">Show map</button>
+
+		</div>
+
+		<div id="pes"></div>
+	</body>
+</html>

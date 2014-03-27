@@ -1,0 +1,5 @@
+	body { height: 100%; width: 100%;  background-color:#aaf}
+	#content {
+		display: table;
+		margin: 0 auto;
+	}
